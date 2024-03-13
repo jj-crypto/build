@@ -14,7 +14,7 @@
 # ============================================================================
 
 
-FROM golang:1.17-bullseye
+FROM golang:bullseye
 
 # 1. Install the TensorFlow C Library (v2.8.0).
 RUN curl -L https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-$(uname -m)-2.8.0.tar.gz \
